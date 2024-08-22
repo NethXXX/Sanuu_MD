@@ -1,0 +1,31 @@
+{
+  "name": "Sanuu MD",
+  "description": "This Is Sanuu MD\n\nCreated By: Mr.Nethmika\n\nOwner Number: +94742876968",
+  "logo": "https://telegra.ph/file/acb5d9378fdf2923a7f49.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
